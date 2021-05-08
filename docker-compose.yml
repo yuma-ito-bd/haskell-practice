@@ -1,0 +1,7 @@
+version: '2'
+services:
+  haskell:
+    image: haskell:9
+    tty: true
+    volumes:
+     - .:/code
